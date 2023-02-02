@@ -6,3 +6,4 @@ RUN apt-get install nginx -y
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 
 CMD ["nginx"]
+CMD ["test2"]
